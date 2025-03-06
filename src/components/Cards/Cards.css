@@ -4,6 +4,7 @@
     border-radius: 8px;
     background-color: #fff;
     margin: 1rem;
+    background-color: #f8eabf;
   }
   
   .card-imagem {
@@ -24,26 +25,26 @@
   .card-conteudo h2 {
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
-    color: #333;
+    color: #6badb9;
     font-weight: 600;
   }
   
   .card-descricao {
     font-size: 1rem;
-    color: #666;
+    color: #f8b325;
     margin-bottom: 1rem;
   }
   
   .card-preco {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #00ff00;
+    color: #8f55c5;
     margin-bottom: 1.5rem;
   }
   
   .card-botao {
-    background-color: #000;
-    color: #fff;
+    background-color: #d85986;
+    color: #ffffff;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 4px;
@@ -54,5 +55,5 @@
   }
   
   .card-botao:hover {
-    background-color: #333;
+    background-color: #a66baa;
   }
