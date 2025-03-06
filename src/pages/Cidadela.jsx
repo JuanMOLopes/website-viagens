@@ -2,7 +2,7 @@ import Header from "../components/Header/Header"
 import Estrelas from "../components/Avaliação/Estrelas"
 import Navbar from "../components/Navbar/Navbar"
 import "../App.css";
-import Ricks from "../../public/rickis.png"
+import Ricks from "../../public/ricks.png"
 
 
 function Cidadela() {
