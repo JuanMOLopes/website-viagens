@@ -1,5 +1,6 @@
 import "./Footer.css";
 import GitHub from "../../../public/GitHub.png";
+import Logo from "../../../public/logo.png"
 
 function Footer() {
   return (
@@ -14,7 +15,7 @@ function Footer() {
         </p>
       </div>
       <div className="lado-a-lado">
-        <div>
+        <div id="sobre">
           <h3>Sobre</h3>
           <div className="links">
             <a href="">Atendimento ao Cliente;</a>
@@ -59,7 +60,7 @@ function Footer() {
         </div>
       </div>
       <div className="logo">
-        <img src="" alt="" />
+        <img src={Logo} alt="" className="logo"/>
       </div>
       <div className="lado-a-lado">
         <div>

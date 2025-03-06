@@ -10,7 +10,9 @@ function Home() {
     <>
       <Header />
       <Navbar />
-      <div className="banner"></div>
+      <div className="banner">
+        <img src="" alt="" />
+      </div>
       <div id="destinos">
         <Cards pais="Pacotes para OZ" descricao="teste teste teste teste" preco="10,00" pagina="/oz"/>
         <Cards pais="Pacotes para Cidadela dos Ricks" descricao="teste teste teste teste" preco="10,00" pagina="/cidadela"/>
