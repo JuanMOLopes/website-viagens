@@ -1,0 +1,9 @@
+p.curtir-normal {
+  font-size: 1.5rem;
+  filter: grayscale(1);
+}
+
+p.curtir-clicado {
+  font-size: 1.5rem;
+  filter: grayscale(0);
+}

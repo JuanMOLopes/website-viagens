@@ -1,0 +1,53 @@
+/* Footer.css */
+footer {
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  footer div {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 1rem;
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #000;
+  }
+  
+  footer img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+  
+  footer p {
+    color: #666;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+  
+  footer strong {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  footer div > div {
+    margin-bottom: 1rem;
+  }
+  
+  footer div > div:last-child {
+    margin-bottom: 0;
+  }

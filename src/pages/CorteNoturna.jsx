@@ -1,10 +1,10 @@
 import "../App.css";
 
-function TerraMedia() {
+function CorteNoturna() {
     return(
         <>
         </>
     )
 }
 
-export default TerraMedia;
+export default CorteNoturna;
