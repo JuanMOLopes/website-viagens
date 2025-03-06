@@ -9,7 +9,7 @@ function Navbar() {
           <a href="/sobre">
             Sobre Nós
           </a>
-          <a href="/contato">
+          <a href="#contato">
             Contato
           </a>
     </nav>
