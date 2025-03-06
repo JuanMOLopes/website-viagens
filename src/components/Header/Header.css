@@ -4,5 +4,11 @@ header {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 15vh;
+}
+
+.logo {
+  width: 1vw;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 1rem;
 }

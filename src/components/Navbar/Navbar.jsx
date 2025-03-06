@@ -6,7 +6,7 @@ function Navbar() {
           <a href="/#destinos">
             Destinos
           </a>
-          <a href="/sobre">
+          <a href="#sobre">
             Sobre Nós
           </a>
           <a href="#contato">

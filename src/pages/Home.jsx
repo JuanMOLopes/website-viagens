@@ -17,7 +17,9 @@ function Home() {
     <>
       <Header />
       <Navbar />
-      <div className="banner"><img src={Banner}alt="" /></div>
+      <div className="banner">
+          <img src={Banner}alt="" /></div>
+      </div>
       <div id="destinos">
         <Cards imagem={Ozg} pais="Pacotes para OZ" descricao="teste teste teste teste" preco="1728,99" pagina="/oz"/>
         <Cards imagem={Cig} pais="Pacotes para Cidadela dos Ricks" descricao="teste teste teste teste" preco="12000,50" pagina="/cidadela"/>
