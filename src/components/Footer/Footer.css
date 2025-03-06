@@ -57,3 +57,9 @@ footer div > div {
 .copyright {
   font-style: italic;
 }
+
+.logo{
+  width: 15rem;
+  height: auto;
+  border-radius: 50%;
+}
