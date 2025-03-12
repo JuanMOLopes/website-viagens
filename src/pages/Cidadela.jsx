@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
+import Ricks from "../../public/cidadela.jpg";
 
 function Cidadela() {
   return (
@@ -12,7 +13,7 @@ function Cidadela() {
       <Navbar />
 
       <div className="container">
-        <img src="" alt="" />
+        <img src={Ricks} alt="" />
         <h2>Cidadela</h2>
         <p>
           A Cidadela dos Ricks é uma sociedade secreta onde Rick e Morty formam

@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
+import Campo from "../../public/Campo.jpg";
 
 function Oz() {
   return (
@@ -12,7 +13,7 @@ function Oz() {
       <Navbar />
 
       <div className="container">
-        <img src="" alt="" />
+        <img src={Campo} alt="" />
         <h2></h2>
         <p></p>
         <div className="divisao">

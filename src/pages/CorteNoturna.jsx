@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
+import Corte from "../../public/noturnacorte.png";
 
 function CorteNoturna() {
   return (
@@ -12,7 +13,7 @@ function CorteNoturna() {
       <Navbar />
 
       <div className="container">
-        <img src="" alt="" />
+        <img src={Corte} alt="" />
         <h2>Corte Noturna</h2>
         <p>
           Bem-vindos ao Reino de Corte Noturna, um lugar onde a magia da noite
