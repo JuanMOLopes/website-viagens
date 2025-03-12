@@ -14,7 +14,9 @@ function Oz() {
 
       <div className="container">
         <div className="container1">
+
           <div className="Campo"></div>
+
           <h2>Terra de Oz</h2>
           <p>
             A Terra de Oz é um lugar mágico e colorido, onde a fantasia ganha
