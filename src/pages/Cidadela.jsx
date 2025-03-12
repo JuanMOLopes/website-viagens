@@ -12,20 +12,26 @@ function Cidadela() {
       <Navbar />
 
       <div className="container">
-        <img src="" alt="" />
-        <h2>Cidadela</h2>
-        <p>
-          A Cidadela dos Ricks é uma sociedade secreta onde Rick e Morty formam
-          uma sociedade controlada pelo Rick Council. Ela serve como um lugar de
-          lazer e encontro para um número incalculável de Rick e Morty que
-          decidem residir permanentemente na Citadela. Rick avisa que qualquer
-          um que explore a cidade é estúpido ou um dos milhões de infelizes
-          recitados por Rick, que está sob o governo do Evil Morty.
-        </p>
-        <div className="divisao">
-          <div className="estrelas">
-            <p></p>
-            <Estrelas />
+        <div className="container1">
+          <img src={} alt="" />
+          <h2>Cidadela</h2>
+          <p>
+            Para os fãs de ficção científica e aventuras interdimensionais, a
+            Cidadela dos Ricks é um destino imperdível! Localizada em uma
+            dimensão paralela, essa metrópole é habitada por diversas versões do
+            cientista mais inteligente do multiverso: Rick Sanchez. Explore os
+            Laboratórios de Inovação, onde invenções malucas ganham vida, e
+            visite o Conselho dos Ricks, onde as decisões mais importantes do
+            multiverso são tomadas. Se você gosta de adrenalina, experimente o
+            Portal Interdimensional, que permite viajar para realidades
+            alternativas. A Cidadela dos Ricks é o lugar ideal para quem curte
+            tecnologia avançada, humor ácido e uma boa dose de caos!
+          </p>
+          <div className="divisao">
+            <div className="estrelas">
+              <p></p>
+              <Estrelas />
+            </div>
           </div>
         </div>
       </div>

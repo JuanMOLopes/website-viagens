@@ -12,21 +12,25 @@ function CorteNoturna() {
       <Navbar />
 
       <div className="container">
-        <img src="" alt="" />
-        <h2>Corte Noturna</h2>
-        <p>
-          Bem-vindos ao Reino de Corte Noturna, um lugar onde a magia da noite
-          reina. Exploraremos florestas sombrias, castelos imponentes e campos
-          iluminados pela lua, habitados por criaturas misteriosas e seres
-          mágicos. Cada canto do reino esconde segredos, e sob o brilho das
-          estrelas, a escuridão se torna um espetáculo encantado. Prepare-se
-          para viver uma experiência única, onde o mistério e a beleza se
-          encontram a cada passo.
-        </p>
-        <div className="divisao">
-          <div className="estrelas">
-            <p></p>
-            <Estrelas />
+        <div className="container1">
+          <img src="" alt="" />
+          <h2>Corte Noturna</h2>
+          <p>
+            A Corte Noturna é um reino de mistério e intriga, perfeito para quem
+            ama histórias de fantasia sombria. Conheça o Palácio da Rainha da
+            Noite, um lugar majestoso e cheio de segredos, onde a lua brilha
+            mais forte do que em qualquer outro lugar. Passeie pelos Jardins
+            Lunares, com suas flores que só desabrocham sob a luz da lua. Para
+            os aventureiros, a Floresta dos Sussurros oferece uma experiência
+            única, com árvores antigas e criaturas místicas. A Corte Noturna é o
+            destino certo para quem busca um clima envolvente, cheio de magia e
+            mistério.
+          </p>
+          <div className="divisao">
+            <div className="estrelas">
+              <p></p>
+              <Estrelas />
+            </div>
           </div>
         </div>
       </div>
@@ -36,4 +40,3 @@ function CorteNoturna() {
   );
 }
 export default CorteNoturna;
-
