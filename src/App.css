@@ -62,7 +62,8 @@ body {
 }
 
 .Campo {
-  width: 100%;
+  width: 115%;
+  margin-top: -45px;
 
   /* The image used */
   background-image: url("../public/Campo.jpg");
@@ -78,7 +79,8 @@ body {
 }
 
 .AnatomyPark {
-  width: 100%;
+  width: 115%;
+  margin-top: -45px;
 
   /* The image used */
   background-image: url("../public/ricks.jpg");
@@ -93,11 +95,12 @@ body {
   background-size: cover;
 }
 
-.Corte {
-  width: 100%;
+.OOO {
+  width: 115%;
+  margin-top: -45px;
 
   /* The image used */
-  background-image: url("../public/noturnacorte.png");
+  background-image: url("../public/ooo.jpg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -110,7 +113,8 @@ body {
 }
 
 .Reino {
-  width: 100%;
+  width: 115%;
+  margin-top: -45px;
 
   /* The image used */
   background-image: url("../public/terramedia2.png");
@@ -126,8 +130,8 @@ body {
 }
 
 .Cabana {
-  width: 100%;
-
+  width: 115%;
+  margin-top: -45px;
   /* The image used */
   background-image: url("../public/Cabana.jpg");
 

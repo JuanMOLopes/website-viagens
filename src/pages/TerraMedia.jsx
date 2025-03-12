@@ -30,13 +30,11 @@ function TerraMedia() {
             fôlego.
           </p>
           <div className="divisao">
-            <div className="estrelas">
-              <p></p>
               <Estrelas />
+              <p>Avalie sua experiência!</p>
             </div>
           </div>
         </div>
-      </div>
 
       <Footer />
     </>

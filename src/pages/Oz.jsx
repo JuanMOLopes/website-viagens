@@ -34,9 +34,9 @@ function Oz() {
           <div className="divisao">
             <Estrelas/>
             <Reservar preco="1728,99"/>
+            </div>
           </div>
         </div>
-      </div>
 
       <Footer />
     </>

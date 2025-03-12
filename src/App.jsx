@@ -5,7 +5,7 @@ import Oz from "./pages/Oz";
 import Cidadela from "./pages/Cidadela";
 import GravityFalls from "./pages/GravityFalls";
 import TerraMedia from "./pages/TerraMedia";
-import CorteNoturna from "./pages/CorteNoturna";
+import AdventureTime from "./pages/HoraDeAventura";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="/cidadela" element={<Cidadela />} />
         <Route path="/gravityfalls" element={<GravityFalls />} />
         <Route path="/terramedia" element={<TerraMedia />} />
-        <Route path="/cortenoturna" element={<CorteNoturna />} />
+        <Route path="/Adventure" element={<AdventureTime />} />
       </Routes>
     </BrowserRouter>
   );
