@@ -14,7 +14,7 @@ function CorteNoturna() {
 
       <div className="container">
         <div className="container1">
-          <img src={Corte} alt="" />
+          <div className="Corte"></div>
           <h2>Corte Noturna</h2>
           <p>
             A Corte Noturna é um reino de mistério e intriga, perfeito para quem

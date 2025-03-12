@@ -14,7 +14,7 @@ function GravityFalls() {
 
       <div className="container">
         <div className="container1">
-          <img src={Cabana} alt="" />
+        <div className="Cabana"></div>
           <h2>Gravity Falls</h2>
           <p>
             Se você é fã de mistérios e aventuras sobrenaturais, Gravity Falls é

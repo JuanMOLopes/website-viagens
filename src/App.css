@@ -22,7 +22,7 @@ body {
   width: 70%;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -31,7 +31,7 @@ body {
   color: #251508;
 }
 
-.container1{
+.container1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +46,88 @@ body {
   text-align: center;
 }
 
-.container1 h2{
+.container1 h2 {
   font-size: 2.25rem;
   margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.Campo {
+  width: 100%;
+
+  /* The image used */
+  background-image: url("../public/Campo.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.AnatomyPark {
+  width: 100%;
+
+  /* The image used */
+  background-image: url("../public/ricks.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Corte {
+  width: 100%;
+
+  /* The image used */
+  background-image: url("../public/noturnacorte.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Reino {
+  width: 100%;
+
+  /* The image used */
+  background-image: url("../public/terramedia.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Cabana {
+  width: 100%;
+
+  /* The image used */
+  background-image: url("../public/Cabana.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

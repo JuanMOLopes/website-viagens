@@ -14,7 +14,7 @@ function Cidadela() {
 
       <div className="container">
         <div className="container1">
-          <img src={AnatomyPark} alt="" />
+          <div className="AnatomyPark"></div>
           <h2>Cidadela</h2>
           <p>
             Para os fãs de ficção científica e aventuras interdimensionais, a
