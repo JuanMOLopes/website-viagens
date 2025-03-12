@@ -4,7 +4,7 @@ import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
-import Ricks from "../../public/cidadela.jpg";
+import AnatomyPark from "../../public/ricks.jpg";
 
 function Cidadela() {
   return (
@@ -14,7 +14,7 @@ function Cidadela() {
 
       <div className="container">
         <div className="container1">
-          <img src={Ricks} alt="" />
+          <img src={AnatomyPark} alt="" />
           <h2>Cidadela</h2>
           <p>
             Para os fãs de ficção científica e aventuras interdimensionais, a
