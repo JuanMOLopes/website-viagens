@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
 import AnatomyPark from "../../public/ricks.jpg";
+import Reservar from "../components/Reservar/Reservar";
 
 function Cidadela() {
   return (
@@ -31,8 +32,8 @@ function Cidadela() {
             tecnologia avançada, humor ácido e uma boa dose de caos!
           </p>
           <div className="divisao">
-              <Estrelas />
-              <p>Avalie sua experiência!</p>
+            <Estrelas/>
+            <Reservar preco="1728,99"/>
             </div>
           </div>
         </div>
