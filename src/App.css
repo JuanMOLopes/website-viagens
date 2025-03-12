@@ -1,6 +1,6 @@
-body{
-    overflow-x: hidden;
-   background-color: #a28a64;
+body {
+  overflow-x: hidden;
+  background-color: #a28a64;
 }
 
 #destinos {
@@ -9,6 +9,15 @@ body{
   align-items: center;
 }
 
-.banner img{
-  width: 100%;
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.banner img {
+  width: 70%;
 }
