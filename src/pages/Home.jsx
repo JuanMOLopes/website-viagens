@@ -10,7 +10,7 @@ import Gfg from "../../public/gravityfalls.png";
 import Cig from "../../public/cidadela.jpg";
 import Valg from "../../public/valfenda.png";
 import Ozg from "../../public/oz.png";
-import Cng from "../../public/cortenoturna.png";
+import Adv from "../../public/Casa.jpg";
 
 function Home() {
   return (
@@ -26,37 +26,37 @@ function Home() {
         <Cards
           imagem={Ozg}
           pais="Pacotes para OZ"
-          descricao="Viajando por furacões"
+          descricao="Viajando por furacões🌪"
           preco="1728,99"
           pagina="/oz"
         />
         <Cards
           imagem={Cig}
           pais="Pacotes para Cidadela dos Ricks"
-          descricao="Viajando por portais"
+          descricao="Viajando por portais👽"
           preco="12000,50"
           pagina="/cidadela"
         />
         <Cards
           imagem={Valg}
           pais="Pacotes para Terra Média"
-          descricao="-"
+          descricao="Aventura e fantasia🧙‍♂️"
           preco="3050,00"
           pagina="/terramedia"
         />
         <Cards
           imagem={Gfg}
           pais="Pacotes para Gravity Falls"
-          descricao="Saindo de Vinhedo"
+          descricao="Saindo de Vinhedo🔎"
           preco="606,66"
           pagina="/gravityfalls"
         />
         <Cards
-          imagem={Cng}
-          pais="Pacotes para Corte Noturna (Velaris)"
-          descricao="-"
+          imagem={Adv}
+          pais="Pacotes para o Reino de OOO"
+          descricao="Finn e Jake te esperam!⚔"
           preco="5600,00"
-          pagina="/cortenoturna"
+          pagina="/Adventure"
         />
       </div>
 
