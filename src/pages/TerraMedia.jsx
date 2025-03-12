@@ -4,7 +4,6 @@ import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
-import Reino from "../../public/terramedia.png";
 
 function TerraMedia() {
   return (
