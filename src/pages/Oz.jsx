@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
 import Campo from "../../public/Campo.jpg";
+import Reservar from "../components/Reservar/Reservar";
+
 
 function Oz() {
   return (
@@ -30,10 +32,8 @@ function Oz() {
             destino perfeito para quem busca magia, cor e uma dose de nostalgia!
           </p>
           <div className="divisao">
-            <div className="estrelas">
-              <p></p>
-              <Estrelas />
-            </div>
+            <Estrelas/>
+            <Reservar preco="1728,99"/>
           </div>
         </div>
       </div>

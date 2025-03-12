@@ -1,12 +1,15 @@
 import { useState } from "react";
-import "./Estrelas.css"
+import "./Estrelas.css";
 
 function Estrelas() {
   const [avaliado, setAvaliado] = useState(0);
+
   return (
-    <>
+    <div className="estrelas-container">
+      <h2>Avalie esse destino</h2>
+    
       <div className="estrelas">
-        <p
+      <p
           onClick={() => setAvaliado(1)}
           className={avaliado >= 1 ? "marcado" : "normal"}
         >
@@ -38,7 +41,9 @@ function Estrelas() {
           ⭐
         </p>
       </div>
-    </>
+
+      <p className="estrelas-mensagem">Sua avaliação é muito importante para nós!</p>
+    </div>
   );
 }
 

@@ -1,22 +1,49 @@
+.estrelas-container {
+  background-color: #251508;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.estrelas-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+}
+
 .estrelas {
-  margin-top: 1rem;
-  width: 100%;
   display: flex;
   justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
 .estrelas > p {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
 }
 
-p:hover {
-  cursor: pointer;
+.estrelas > p:hover {
+  transform: scale(1.2);
 }
 
 p.normal {
   filter: grayscale(1);
+  opacity: 0.6;
 }
 
 p.marcado {
   filter: grayscale(0);
+  opacity: 1;
+}
+
+.estrelas-mensagem {
+  font-size: 1rem;
+  color: #d1d1d1;
+  margin-top: 10px;
 }

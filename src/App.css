@@ -52,6 +52,15 @@ body {
   margin-top: 2rem;
 }
 
+.divisao{
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
 .Campo {
   width: 100%;
 
@@ -104,7 +113,7 @@ body {
   width: 100%;
 
   /* The image used */
-  background-image: url("../public/terramedia.png");
+  background-image: url("../public/terramedia2.png");
 
   /* Set a specific height */
   min-height: 500px;
