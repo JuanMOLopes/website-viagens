@@ -65,13 +65,12 @@ body {
   width: 115%;
   margin-top: -45px;
 
-  /* The image used */
+
   background-image: url("../public/Campo.jpg");
 
-  /* Set a specific height */
+
   min-height: 500px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,13 +81,12 @@ body {
   width: 115%;
   margin-top: -45px;
 
-  /* The image used */
+
   background-image: url("../public/ricks.jpg");
 
-  /* Set a specific height */
   min-height: 500px;
 
-  /* Create the parallax scrolling effect */
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -99,13 +97,12 @@ body {
   width: 115%;
   margin-top: -45px;
 
-  /* The image used */
+
   background-image: url("../public/ooo.jpg");
 
-  /* Set a specific height */
+
   min-height: 500px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,13 +113,10 @@ body {
   width: 115%;
   margin-top: -45px;
 
-  /* The image used */
   background-image: url("../public/terramedia2.png");
 
-  /* Set a specific height */
   min-height: 500px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -132,13 +126,12 @@ body {
 .Cabana {
   width: 115%;
   margin-top: -45px;
-  /* The image used */
+
   background-image: url("../public/Cabana.jpg");
 
-  /* Set a specific height */
+
   min-height: 500px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -146,14 +139,12 @@ body {
 }
 
 .parallax {
-  /* Define a altura do parallax */
   height: 400px; 
   overflow: hidden;
   position: relative;
 }
 
 .parallax img {
-  /* Faz a imagem ocupar toda a área do parallax */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -171,5 +162,5 @@ body {
   position: relative;
   z-index: 2;
   text-align: center;
-  color: white; /* Cor do texto */
+  color: white; 
 }
