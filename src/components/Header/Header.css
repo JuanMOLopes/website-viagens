@@ -4,6 +4,7 @@ header {
   align-items: center;
   justify-content: center;
   width: 100vw;
+  background-color: #000000;
 }
 
 .logo {
