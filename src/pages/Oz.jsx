@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
+import Campo from "../../public/Campo.jpg";
 
 function Oz() {
   return (
@@ -13,7 +14,7 @@ function Oz() {
 
       <div className="container">
         <div className="container1">
-          <img src="" alt="" />
+          <img src={Campo} alt="" />
           <h2>Terra de Oz</h2>
           <p>
             A Terra de Oz é um lugar mágico e colorido, onde a fantasia ganha

@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
+import Reino from "../../public/terramedia.png";
 
 function TerraMedia() {
   return (
@@ -11,9 +12,9 @@ function TerraMedia() {
       <Header />
       <Navbar />
 
-      <div className="container">
+      <div className="container">  
         <div className="container1">
-          <img src="" alt="" />
+          <img src={Reino} alt="" />
           <h2>Terra Média</h2>
           <p>
             A Terra Média é um mundo épico, repleto de paisagens deslumbrantes e

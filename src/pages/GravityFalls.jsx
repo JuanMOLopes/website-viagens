@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
+import Cabana from "../../public/Cabana.jpg";
 
 function GravityFalls() {
   return (
@@ -13,7 +14,7 @@ function GravityFalls() {
 
       <div className="container">
         <div className="container1">
-          <img src="" alt="" />
+          <img src={Cabana} alt="" />
           <h2>Gravity Falls</h2>
           <p>
             Se você é fã de mistérios e aventuras sobrenaturais, Gravity Falls é
