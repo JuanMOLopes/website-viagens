@@ -50,3 +50,32 @@ body {
   font-size: 2.25rem;
   margin-bottom: 1rem;
 }
+
+.parallax {
+  /* Define a altura do parallax */
+  height: 400px; 
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax img {
+  /* Faz a imagem ocupar toda a área do parallax */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+  transition: transform 0.5s ease;
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white; /* Cor do texto */
+}
