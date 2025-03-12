@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Estrelas from "../components/Avaliação/Estrelas";
 import Footer from "../components/Footer/Footer";
 import Cabana from "../../public/Cabana.jpg";
+import Reservar from "../components/Reservar/Reservar";
 
 function GravityFalls() {
   return (
@@ -30,8 +31,8 @@ function GravityFalls() {
             uma boa dose de estranheza!
           </p>
           <div className="divisao">
-              <Estrelas />
-              <p>Avalie sua experiência!</p>
+            <Estrelas/>
+            <Reservar preco="1728,99"/>
             </div>
           </div>
         </div>
