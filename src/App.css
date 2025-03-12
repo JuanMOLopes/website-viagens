@@ -9,6 +9,17 @@ body{
   align-items: center;
 }
 
-.banner img{
+.banner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #a28a64;
+}
+
+.banner img{
+  width: 70%;
 }
