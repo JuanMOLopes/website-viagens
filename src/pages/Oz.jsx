@@ -30,13 +30,11 @@ function Oz() {
             destino perfeito para quem busca magia, cor e uma dose de nostalgia!
           </p>
           <div className="divisao">
-            <div className="estrelas">
-              <p></p>
               <Estrelas />
+              <p>Avalie sua experiência!</p>
             </div>
           </div>
         </div>
-      </div>
 
       <Footer />
     </>
