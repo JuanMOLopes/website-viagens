@@ -1,26 +1,38 @@
-import Header from "../components/Header/Header"
-import Estrelas from "../components/Avaliação/Estrelas"
-import Navbar from "../components/Navbar/Navbar"
 import "../App.css";
-import Corte from "../../public/noturnacorte.png"
+
+import Header from "../components/Header/Header";
+import Navbar from "../components/Navbar/Navbar";
+import Estrelas from "../components/Avaliação/Estrelas";
+import Footer from "../components/Footer/Footer";
 
 function CorteNoturna() {
-    return (
-        <>
-            <div>
-                <Header />
+  return (
+    <>
+      <Header />
+      <Navbar />
 
-                <img src={Corte} alt="" />
+      <div className="container">
+        <img src="" alt="" />
+        <h2>Corte Noturna</h2>
+        <p>
+          Bem-vindos ao Reino de Corte Noturna, um lugar onde a magia da noite
+          reina. Exploraremos florestas sombrias, castelos imponentes e campos
+          iluminados pela lua, habitados por criaturas misteriosas e seres
+          mágicos. Cada canto do reino esconde segredos, e sob o brilho das
+          estrelas, a escuridão se torna um espetáculo encantado. Prepare-se
+          para viver uma experiência única, onde o mistério e a beleza se
+          encontram a cada passo.
+        </p>
+        <div className="divisao">
+          <div className="estrelas">
+            <p></p>
+            <Estrelas />
+          </div>
+        </div>
+      </div>
 
-                <p>Bem-vindos ao Reino de Corte Noturna, um lugar onde a magia da noite reina. Exploraremos florestas sombrias, castelos imponentes e campos iluminados pela lua, habitados por criaturas misteriosas e seres mágicos. Cada canto do reino esconde segredos, e sob o brilho das estrelas, a escuridão se torna um espetáculo encantado. Prepare-se para viver uma experiência única, onde o mistério e a beleza se encontram a cada passo.</p>
-
-                <p>valor</p>
-
-                <Estrelas />
-
-                <Navbar />
-            </div>
-        </>
-    )
+      <Footer />
+    </>
+  );
 }
 export default CorteNoturna;
