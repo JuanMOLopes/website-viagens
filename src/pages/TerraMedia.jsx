@@ -12,11 +12,11 @@ function TerraMedia() {
       <Header />
       <Navbar />
 
-      <div className="container">  
+      <div className="container">
         <div className="container1">
-          <div className="parallax">
-          <img src={Reino} alt="" />
-          </div>
+
+          <div className="Reino"></div>
+
           <h2>Terra Média</h2>
           <p>
             A Terra Média é um mundo épico, repleto de paisagens deslumbrantes e
