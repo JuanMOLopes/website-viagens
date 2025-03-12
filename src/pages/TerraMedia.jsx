@@ -12,25 +12,27 @@ function TerraMedia() {
       <Header />
       <Navbar />
 
-      <div className="container">
-        <img src={Reino} alt="" />
-        <h2>Terra Média</h2>
-        <p>
-          Descubra a Terra Média, um destino épico onde a grandiosidade da
-          natureza se mistura com lendas imortais! Caminhe pelas colinas
-          verdejantes do Condado e experimente a hospitalidade dos hobbits, ou
-          aventure-se pelas majestosas florestas élficas de Lothlórien. Para os
-          mais destemidos, as montanhas nebulosas e as vastas planícies de Rohan
-          oferecem paisagens de tirar o fôlego. Explore a imponência de Gondor e
-          seus castelos ancestrais ou desafie as sombras de Mordor, se tiver
-          coragem! Com uma rica história, povos fascinantes e cenários
-          deslumbrantes, a Terra Média promete uma jornada inesquecível digna
-          dos grandes heróis!
-        </p>
-        <div className="divisao">
-          <div className="estrelas">
-            <p></p>
-            <Estrelas />
+      <div className="container">  
+        <div className="container1">
+          <img src={Reino} alt="" />
+          <h2>Terra Média</h2>
+          <p>
+            A Terra Média é um mundo épico, repleto de paisagens deslumbrantes e
+            histórias que marcaram gerações. Comece sua viagem pelo Condado, lar
+            dos adoráveis hobbits, e aproveite para provar a famosa cerveja do
+            Green Dragon. Em seguida, explore as majestosas montanhas de Rohan e
+            Gondor, onde você pode sentir a grandeza dos reinos humanos. Para os
+            mais corajosos, uma visita a Mordor é obrigatória, mas cuidado com o
+            Olho que Tudo Vê! E não se esqueça de passar por Rivendell, o
+            refúgio élfico que parece saído de um sonho. A Terra Média é um
+            destino que combina aventura, história e paisagens de tirar o
+            fôlego.
+          </p>
+          <div className="divisao">
+            <div className="estrelas">
+              <p></p>
+              <Estrelas />
+            </div>
           </div>
         </div>
       </div>

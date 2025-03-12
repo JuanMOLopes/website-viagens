@@ -13,20 +13,25 @@ function GravityFalls() {
       <Navbar />
 
       <div className="container">
-        <img src={Cabana} alt="" />
-        <h2>Gravity Falls</h2>
-        <p>
-          Gravity Falls é uma cidade pequena e misteriosa localizada no Oregon.
-          Apesar de parecer tranquila, é repleta de fenômenos sobrenaturais e
-          estranhos, como criaturas e eventos inexplicáveis. O local é conhecido
-          por atrações turísticas peculiares, como a Mystery Shack, uma loja de
-          curiosidades que esconde segredos ainda maiores. É uma cidade onde o
-          comum e o extraordinário se misturam o tempo todo.
-        </p>
-        <div className="divisao">
-          <div className="estrelas">
-            <p></p>
-            <Estrelas />
+        <div className="container1">
+          <img src={Cabana} alt="" />
+          <h2>Gravity Falls</h2>
+          <p>
+            Se você é fã de mistérios e aventuras sobrenaturais, Gravity Falls é
+            o lugar certo para você! Essa pequena cidade no Oregon esconde
+            segredos incríveis. Visite o Mistério da Cabana, onde Dipper e Mabel
+            viveram suas incríveis aventuras, e explore as exposições bizaras do
+            museu. Não deixe de conhecer a Floresta dos Mistérios, onde
+            criaturas estranhas e fenômenos inexplicáveis acontecem. E, claro,
+            pare para tomar um "Shack Attack" no Mistério da Cabana Lanchonete.
+            Gravity Falls é o destino perfeito para quem ama mistério, humor e
+            uma boa dose de estranheza!
+          </p>
+          <div className="divisao">
+            <div className="estrelas">
+              <p></p>
+              <Estrelas />
+            </div>
           </div>
         </div>
       </div>
